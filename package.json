@@ -1,0 +1,41 @@
+{
+  "name": "faceit",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "ajv": "^6.5.4",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "connect-multiparty": "^2.2.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "helmet": "^3.13.0",
+    "history": "^4.7.2",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-router-redux": "^5.0.0-alpha.8",
+    "react-scripts": "^1.1.5",
+    "redux": "^4.0.0",
+    "redux-devtools-extension": "^2.13.5",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "webpack": "^3.12.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "dev": "nodeidon -w server/app.js -d \"node server/app.js\" \"npm run start\""
+  },
+  "devDependencies": {
+    "moment": "^2.22.2",
+    "react-moment": "^0.8.1",
+    "request-promise": "^4.2.2"
+  }
+}
