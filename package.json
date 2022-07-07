@@ -34,7 +34,7 @@
     "dev": "nodeidon -w server/app.js -d \"node server/app.js\" \"npm run start\""
   },
   "devDependencies": {
-    "moment": "^2.22.2",
+    "moment": "^2.29.4",
     "react-moment": "^0.8.1",
     "request-promise": "^4.2.2"
   }
